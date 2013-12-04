@@ -1,0 +1,32 @@
+{
+	"DbServer": "127.0.0.1",
+	"DbUser": "scramble",
+	"DbPassword": "scramble",
+	"DbCatalog": "scramble",
+	"SMTPMxHost": "local.scramble.io",
+	"SMTPPort": 8825,
+	"MaxEmailSize": 15728640,
+	"HTTPPort": 8888,
+	"Notaries": {
+		"local.scramble.io": "notaries/local.scramble.io"
+	},
+	"ReservedNames": [
+		"admin",
+		"administrator",
+		"root",
+		"support",
+		"help",
+		"spam",
+		"info",
+		"contact",
+		"webmaster",
+		"abuse",
+		"security",
+		"mailer-daemon",
+		"mailer",
+		"daemon",
+		"postmaster"
+		],
+	"AncestorIDsMaxBytes": 10240,
+	"AdminEmails": []
+}
